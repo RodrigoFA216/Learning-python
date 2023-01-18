@@ -1,3 +1,4 @@
+Lists
 1.	capitalize      Cambia todas las letras a minúsculas menos la primera.
 2.	casefold        Utilizada para compara cadenas sin importar el tamaño de los caracteres.
 3.  center          Formaseta una cadena alineandola al centro
@@ -45,3 +46,51 @@
 45. translate       Reemplaza cada carácter por otro siguiendo una tabla de traducciones.
 46. upper           Convierte la cadena a mayúsculas.
 47. zfill           Añade ceros a la izquierda a una cadena numérica.
+
+
+Estructura de datos inmutables que contiene una secuencia ordenada de elementos
+Tupla = (1, 2, 3, 4)
+    Los elementos están separados por espacios luego de las comas
+    Puede contener cualquier tipo de datos
+    Cada posición de la tupla tiene un índice
+    Es inmutable y por lo tanto no puede ser modificada, lo que permite proteger mejor la data si no queremos que se modifique por error
+Acceder a un elemento
+Tupla = (”A”, “B”, “C”)
+Tupla [0] Indice a consultar
+“A” Nos retorna el resultado de la posición 0 en la tupla
+Encontrar un elemento
+Tupla = (”A”, “B”, “C”)
+“A” in Tupla
+True
+“Z” in Tupla
+False
+Metodos
+Buscar el Indice de un elemento
+Tupla = (”A”, “B”, “C”)
+Tupla.index(”A”)
+0 Nos devuelve el indice del elemento que buscamos
+Numero de veces que un elemento aparece en la Tupla
+Tupla = (”A”, “B”, “C”)
+Tupla.count(elemento)
+Tupla.count(”B”)
+1 Retorna el numero de veces del elemento en la Tupla
+
+Dictionarys
+# A dictionary has a key and a value assigned for each key, 
+# to get the definition of the value we need to reference the key 
+# a dictionary can assign different types of valors for each key
+# Dictionary on Python is an Object in JS
+
+# All the dictionary can be mutable with this functions:
+# clear()	    Removes all the elements from the dictionary
+# copy()	    Returns a copy of the dictionary
+# fromkeys()	Returns a dictionary with the specified keys and value
+# get()	        Returns the value of the specified key
+# items()	    Returns a list containing a tuple for each key value pair
+# keys()	    Returns a list containing the dictionary's keys
+# pop()	        Removes the element with the specified key
+# popitem()	    Removes the last inserted key-value pair
+# setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+# update()	    Updates the dictionary with the specified key-value pairs
+# values()	    Returns a list of all the values in the dictionary
+
