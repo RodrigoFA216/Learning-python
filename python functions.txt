@@ -76,10 +76,10 @@ Tupla.count(”B”)
 1 Retorna el numero de veces del elemento en la Tupla
 
 Dictionarys
-# A dictionary has a key and a value assigned for each key, 
-# to get the definition of the value we need to reference the key 
-# a dictionary can assign different types of valors for each key
-# Dictionary on Python is an Object in JS
+A dictionary has a key and a value assigned for each key, 
+to get the definition of the value we need to reference the key 
+a dictionary can assign different types of valors for each key
+Dictionary on Python is an Object in JS
 
 # All the dictionary can be mutable with this functions:
 # clear()	    Removes all the elements from the dictionary
